@@ -43,10 +43,13 @@ def compress(inputs):
         i+=1
     return compressed
 
+def main():
+    answer = readfile()
+    sums = compress(answer)
+    test = compare(sums)
+    print("test")
 
-answer = readfile()
-sums = compress(answer)
-test = compare(sums)
 
+main()
 
 
